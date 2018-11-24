@@ -50,7 +50,6 @@ export const startRecordingEpic: Epic<Action, Action, RootState> = (
         .pipe(
             merge(audioReadySubject),
             tap((action: IStartRecordingEpicAction) => {
-                console.log(action);
                 if (action.type === START_RECORDING) {
                     mediaRecorder.start();
                 }
