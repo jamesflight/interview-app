@@ -1,0 +1,32 @@
+Arguments: 
+  /home/james/node-v8.9.4/bin/node /home/james/node-v8.9.4/bin/yarn rm type-graphql
+
+PATH: 
+  /home/james/google-cloud-sdk/bin:/home/james/google-cloud-sdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/james/node-v8.9.4/bin:/home/james/genymotion/tools:/home/james/.local/bin:/home/james/node-v8.9.4/bin:/home/james/genymotion/tools:/home/james/.local/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.4
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find a package.json file in "/home/james/Code/interview-app"
+      at new MessageError (/home/james/node-v8.9.4/lib/node_modules/yarn/lib/cli.js:186:110)
+      at /home/james/node-v8.9.4/lib/node_modules/yarn/lib/cli.js:40048:15
+      at Generator.next (<anonymous>)
+      at step (/home/james/node-v8.9.4/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /home/james/node-v8.9.4/lib/node_modules/yarn/lib/cli.js:109:13
+      at <anonymous>

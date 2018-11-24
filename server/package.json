@@ -6,7 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/graphql": "^14.0.3",
+    "@types/knex": "^0.15.1",
+    "graphql": "^14.0.2",
+    "knex": "^0.15.2",
+    "pg": "^7.6.1",
+    "sqlite3": "^4.0.4"
+  },
   "devDependencies": {
     "@types/aws-lambda": "8.10.1",
     "@types/node": "^8.0.57",
@@ -15,7 +22,8 @@
     "source-map-support": "^0.5.6",
     "ts-loader": "^4.2.0",
     "typescript": "^2.9.2",
-    "webpack": "^4.5.0"
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.1.2"
   },
   "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
   "license": "MIT"

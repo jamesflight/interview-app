@@ -11,9 +11,9 @@ provider:
   runtime: nodejs8.10
 
 functions:
-  hello:
-    handler: handler.hello
+  graphql:
+    handler: handler.graphqlEndpoint
     events:
       - http:
-          method: get
-          path: hello
+          method: any
+          path: graphql
