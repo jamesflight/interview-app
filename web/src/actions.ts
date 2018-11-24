@@ -25,14 +25,14 @@ export function stopRecording(): IStopRecording {
     };
 }
 
-export interface IAudioReady {
-    type: constants.AUDIO_READY;
-    audio: HTMLAudioElement;
+export interface ITranscriptionReady {
+    type: constants.TRANSCRIPTION_READY;
+    transcription: string;
 }
 
-export function audioReady(audio: HTMLAudioElement): IAudioReady {
+export function transcriptionReady(transcription: string): ITranscriptionReady {
     return {
-        type: constants.AUDIO_READY,
-        audio,
+        type: constants.TRANSCRIPTION_READY,
+        transcription,
     };
 }

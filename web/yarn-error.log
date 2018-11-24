@@ -1,5 +1,5 @@
 Arguments: 
-  /home/james/node-v8.9.4/bin/node /home/james/node-v8.9.4/bin/yarn watch
+  /home/james/node-v8.9.4/bin/node /home/james/node-v8.9.4/bin/yarn serve
 
 PATH: 
   /home/james/google-cloud-sdk/bin:/home/james/google-cloud-sdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/james/node-v8.9.4/bin:/home/james/genymotion/tools:/home/james/.local/bin:/home/james/node-v8.9.4/bin:/home/james/genymotion/tools:/home/james/.local/bin
@@ -24,6 +24,7 @@ npm manifest:
       "@types/react": "^16.4.18",
       "@types/react-dom": "^16.0.9",
       "@types/react-redux": "^6.0.9",
+      "@types/webspeechapi": "^0.0.29",
       "ramda": "^0.25.0",
       "react": "^16.6.0",
       "react-dom": "^16.6.0",
@@ -84,6 +85,10 @@ Lockfile:
     dependencies:
       "@types/prop-types" "*"
       csstype "^2.2.0"
+  
+  "@types/webspeechapi@^0.0.29":
+    version "0.0.29"
+    resolved "https://registry.yarnpkg.com/@types/webspeechapi/-/webspeechapi-0.0.29.tgz#8f3c6b31b779df7a9bbac7f89acfce0c3bcb1972"
   
   "@webassemblyjs/ast@1.7.8":
     version "1.7.8"
@@ -2618,7 +2623,7 @@ Lockfile:
       yargs-parser "^10.1.0"
 
 Trace: 
-  Error: Command "watch" not found.
+  Error: Command "serve" not found.
       at new MessageError (/home/james/node-v8.9.4/lib/node_modules/yarn/lib/cli.js:186:110)
       at /home/james/node-v8.9.4/lib/node_modules/yarn/lib/cli.js:87307:17
       at Generator.next (<anonymous>)
