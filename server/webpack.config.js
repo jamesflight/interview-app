@@ -10,6 +10,9 @@ Object.keys(slsw.lib.entries).forEach(
 module.exports = {
   mode: slsw.lib.webpack.isLocal ? 'development' : 'production',
   entry: entries,
+  externals: {
+    knex: 'commonjs knex'
+  },
   devtool: 'source-map',
   resolve: {
     extensions: ['.js', '.jsx', '.json', '.ts', '.tsx', '.mjs'],

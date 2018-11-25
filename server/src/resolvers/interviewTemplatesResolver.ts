@@ -1,6 +1,6 @@
-export const interviewTemplatesResolver = () => {
-    return [{
-        id: 123,
-        name: "interview 1"
-    }];
+export const interviewTemplatesResolver = (obj, context) => {
+    return context.knex.select('id', 'name').from('interview_templates')
+        .then((results) => {
+            return results;
+        });
 };

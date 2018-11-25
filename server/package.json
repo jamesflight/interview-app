@@ -9,9 +9,11 @@
   "dependencies": {
     "@types/graphql": "^14.0.3",
     "@types/knex": "^0.15.1",
+    "@types/ramda": "types/npm-ramda#dist",
     "graphql": "^14.0.2",
     "knex": "^0.15.2",
     "pg": "^7.6.1",
+    "ramda": "^0.26.0",
     "sqlite3": "^4.0.4"
   },
   "devDependencies": {
